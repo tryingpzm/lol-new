@@ -1,0 +1,680 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/lol.css">
+</head>
+<body>
+<div class="topbar clearfix">
+    <div class="topbar-inner">
+        <div class="ul-wrapper">
+            <ul class="topbar-navigator clearfix">
+                <li><a href="#">
+                    游戏资料
+                    <span>
+                GAME INFO
+            </span>
+                </a></li>
+                <li><a href="#">
+                    商城/合作
+                    <span>STORE</span>
+                </a></li>
+                <li><a href="#">
+                    用户互动
+                    <span>COMMUNITY</span>
+                </a></li>
+                <li><a href="#">
+                    赛事中心
+                    <span>EVENTS</span>
+                </a></li>
+                <li><a href="#">
+                    自助系统
+                    <span>SYSTEM</span>
+                </a></li>
+            </ul>
+            <ul class="sub-nav-inner" style="display:none">
+                <li class="sub-nav-item">
+                    <a class="sub-nav-lnk" href="#" target="_blank">新手指引</a>
+                    <a class="sub-nav-lnk" href="#" target="_blank">资料库</a>
+                    <a class="sub-nav-lnk" href="#" target="_blank">攻略中心</a>
+                    <a class="sub-nav-lnk" href="#" target="_blank">模式实验室</a>
+                    <a class="sub-nav-lnk" href="#" target="_blank">海克斯战利品库</a>
+                    <a class="sub-nav-lnk" href="#" target="_blank">屏保下载</a>
+                    <a class="sub-nav-lnk" href="#" target="_blank">宇宙官网</a>
+                </li>
+                <li class="sub-nav-item">
+                    <a class="sub-nav-lnk"  target="_blank"
+                        href="#"> 点券充值</a>
+                    <a class="sub-nav-lnk"  target="_blank"
+                        href="#">道聚城</a>
+                    <a class="sub-nav-lnk hotIcon"
+                        href="#" target="_blank">周边商城</a>
+                    <a class="sub-nav-lnk" 
+                        href="#" target="_blank">LOL桌游</a>
+                    <a class="sub-nav-lnk" 
+                        href="#" target="_blank">LOL信用卡</a>
+                    <a class="sub-nav-lnk" 
+                        href="#" target="_blank">网吧特权</a>
+                </li>
+                <li class="sub-nav-item">
+                    <a class="sub-nav-lnk" 
+                        href="#" target="_blank">在线客服</a>
+                    <a class="sub-nav-lnk"   href="#"
+                       target="_blank">视频中心</a>
+                    <a class="sub-nav-lnk" 
+                        href="#" target="_blank"> 活动中心</a>
+                    <a class="sub-nav-lnk"  target="_blank"
+                        href="#">官方论坛</a>
+                    <a class="sub-nav-lnk" 
+                        href="#" target="_blank">官方微信</a>
+                    <a class="sub-nav-lnk" 
+                        href="#" target="_blank">官方微博</a>
+                </li>
+                <li class="sub-nav-item">
+                    <a class="sub-nav-lnk"  target="_blank"
+                        href="#"> LPL职业联赛</a>
+                    <a class="sub-nav-lnk hotIcon"  target="_blank"
+                        href="#">甲级职业联赛</a>
+                    <a class="sub-nav-lnk"  target="_blank"
+                        href="#">德玛西亚杯</a>
+                    <a class="sub-nav-lnk"  target="_blank"
+                        href="#">城市争霸赛</a>
+                    <a class="sub-nav-lnk"  target="_blank"
+                        href="#">高校联赛</a>
+                    <a class="sub-nav-lnk"  target="_blank"
+                        href="#">校际精英赛</a>
+                    <a class="sub-nav-lnk"  target="_blank"
+                        href="#">高校自发赛</a>
+                </li>
+                <li class="sub-nav-item">
+                    <!--<li><a  href="#" target="_blank" > 点亮图标</a></li>-->
+                    <!--<li><a  href="#" target="_blank" > 声望系统</a></li>-->
+                    <a class="sub-nav-lnk"  target="_blank"
+                        href="#">点亮图标</a>
+                    <a class="sub-nav-lnk"  target="_blank"
+                        href="#">声望系统</a>
+                    <a class="sub-nav-lnk hotIcon"  target="_blank"
+                        href="#"> 封号查询</a>
+                    <a class="sub-nav-lnk"  target="_blank"
+                        href="#">体验服申请</a>
+                    <a class="sub-nav-lnk"  target="_blank"
+                        href="#">服务器状态查询</a>
+                    <a class="sub-nav-lnk"  target="_blank"
+                        href="#">裁决之镰</a>
+                    <a class="sub-nav-lnk"  target="_blank"
+                        href="#"> 峡谷之巅</a>
+                </li>
+            </ul>
+        </div>
+        <a class="topbar-search">
+            <i class="topbar-search-icon"></i>
+        </a>
+        <a class="topbar-mobile">
+            <i class="topbar-mobile-icon"></i>
+        </a>
+        <div class="topbar-user clearfix">
+            <div class="topbar-head">
+                <i class="topbar-head-icon"></i>
+                <img src="images/default.png" alt="default image">
+            </div>
+            <div class="topbar-prompt1">
+                亲爱的召唤师，欢迎 <a href="#">登录</a>
+                <span>登陆后查看自己的战绩、资产、声望值等</span>
+            </div>
+            <div class="topbar-prompt2" style="visibility: hidden;">
+                <p>登陆并且绑定大区后才可查看您的具体信息哦~（包括战绩、资产、声望值等）</p>
+                <a href="http://lol.qq.com/web201310/personal.shtml">进入个人中心</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="topbar-logo-wrapper">
+    <div class="topbar-logo topbar-inner">
+        <a href="" class="topbar-logo-icon"></a>
+    </div>
+</div>
+<div class="header-outer">
+    <div class="header-inner">
+        <div class="header-video-wrapper">
+            <video class="header-video" autoplay loop>
+                <source src="videos/big-v7.webm" type="video/webm">
+                <source src="videos/big-v7.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="header-act-name">
+            <h2>对决！ 黎明VS黑夜</h2>
+            <p>秩序。混沌。二者相争不绝，无所不用其极。疾风化尽，命数将成。</p>
+        </div>
+        <div class="header-act-video">
+            <video class="header-act-small-video" autoplay loop>
+                <source src="videos/small-v7.webm" type="video/webm">
+                <source src="videos/small-v7.mp4" type="video/mp4">
+            </video>
+            <a href="" class="header-act-small-link">
+                <i class="header-act-small-icon"></i>
+            </a>
+        </div>
+        <a href="" class="header-act-link">查看详情</a>
+        <div class="version">
+            当前游戏版本<em>Ver7.13</em><a href="">版本详情</a>
+        </div>
+    </div>
+</div>
+<div class="menu">
+    <ul>
+        <li class="border-bottom">综合资讯</li>
+        <li>视频中心</li>
+        <li>赛事中心</li>
+        <li>活动中心</li>
+    </ul>
+</div>
+<div class="page-wrapper">
+    <div class="page">
+        <!--轮播促销图 和 边栏-->
+        <div class="content-top clearfix layer">
+            <div class="content-top-promo">
+                <div class="promo-images">
+                    <ul class="clearfix">
+                        <li><a href=""><img src="images/promo1.jpg" alt="" width="820" height="350"></a></li>
+                        <li><a href=""><img src="images/promo2.jpg" alt="" width="820" height="350"></a></li>
+                        <li><a href=""><img src="images/promo3.jpg" alt="" width="820" height="350"></a></li>
+                        <li><a href=""><img src="images/promo4.jpg" alt="" width="820" height="350"></a></li>
+                        <li><a href=""><img src="images/promo5.jpg" alt="" width="820" height="350"></a></li>
+                    </ul>
+                </div>
+                <ul class="promo-menu clearfix">
+                    <li class="on">无极剑圣斩星魔剑</li>
+                    <li>庆LPL登顶亚洲</li>
+                    <li>18点OMG战EDG</li>
+                    <li>新英雄凯隐大揭秘</li>
+                    <li>峡谷之巅正式赛季</li>
+                </ul>
+            </div>
+            <!--promo区右边栏-->
+            <div class="content-top-sidebar">
+                <a href="">
+                    <video autoplay loop>
+                        <source src="videos/content-sidebar.mp4" type="video/mp4">
+                    </video>
+                </a>
+                <ul class="content-top-sidebar-ul clearfix">
+                    <li><a href="">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-guide"></use>
+                        </svg>新手推荐
+                    </a></li>
+                    <li><a href="">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-yz"></use>
+                        </svg>宇宙官网
+                    </a></li>
+                    <li><a href="">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-shangcheng"></use>
+                        </svg>周边商城
+                        <svg class="icon icon-hot" aria-hidden="true">
+                            <use xlink:href="#icon-hot2"></use>
+                        </svg>
+                    </a></li>
+                    <li><a href="">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-lol"></use>
+                        </svg>新客户端
+                        <svg class="icon icon-new" aria-hidden="true">
+                            <use xlink:href="#icon-new"></use>
+                        </svg>
+                    </a></li>
+                    <li><a href="">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-top"></use>
+                        </svg>峡谷之巅
+                        <svg class="icon icon-new" aria-hidden="true">
+                            <use xlink:href="#icon-new"></use>
+                        </svg>
+                    </a></li>
+                    <li><a href="">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-yaochi"></use>
+                        </svg>CDK兑换
+                    </a></li>
+                    <li><a href="">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-xunhuan"></use>
+                        </svg>轮换模式
+                        <svg class="icon icon-hot" aria-hidden="true">
+                            <use xlink:href="#icon-hot2"></use>
+                        </svg>
+                    </a></li>
+                    <li><a href="">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-ziliao"></use>
+                        </svg>游戏资料
+                    </a></li>
+                    <li><a href="">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-reward"></use>
+                        </svg>领奖中心
+                    </a></li>
+                    <li><a href="">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-weibo"></use>
+                        </svg>官方微博
+                    </a></li>
+                    <li><a href="">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-comiisluntan"></use>
+                        </svg>玩家论坛
+                    </a></li>
+                    <li><a href="">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-qq"></use>
+                        </svg>在线客服
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        <!--轮播区完，开始写content-middle区-->
+        <div class="content-middle layer">
+            <div class="content-middle-main">
+                <div class="content-middle-tab clearfix">
+                    <h3>最新资讯</h3>
+                    <ul class="clearfix">
+                        <li class="current">综合新闻</li>
+                        <li>官方公告</li>
+                        <li>赛事新闻</li>
+                        <li>论坛资讯</li>
+                    </ul>
+                </div>
+                <!--这里是四个页面-->
+                <div class="content-middle-news-wrapper">
+                    <div class="content-middle-news show">
+                        <ul id="Jnews_n1_inner" class="clearfix txtlist">
+                            <li class="first">
+                                <a href="#" class="lnk-tit" title="无极剑圣的斩星魔剑开启"
+                                   onclick="pgvSendClick({hottag:'v2.news.all.608369'})" target="_blank">
+                                    <img src="http://ossweb-img.qq.com/images/lol/v2/news/pic-news3.jpg">
+                                    <span class="news-first-title">无极剑圣的斩星魔剑开启</span>
+                                    <span class="news-first-desc">珍稀守卫限时销售，赠送魔法星尘！</span>
+                                </a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="符文角：流星抢先看"
+                                   onclick="pgvSendClick({hottag:'v2.news.all.607844'})" target="_blank"><span
+                                        class="new-type">新闻</span>符文角：流星抢先看<span
+                                        class="date">07/13</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="对决不为人知的结局"
+                                   onclick="pgvSendClick({hottag:'v2.news.all.608794'})" target="_blank"><span
+                                        class="new-type">新闻</span>对决不为人知的结局<span
+                                        class="date">07/15</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="OMG对阵EDG 黑暗势力冲击七连胜"
+                                   onclick="pgvSendClick({hottag:'v2.news.all.608118'})" target="_blank"><span
+                                        class="new-type">新闻</span>OMG对阵EDG
+                                    黑暗势力冲击七连胜<span class="date">07/15</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="官方赛事解说与主持人招募启动"
+                                   onclick="pgvSendClick({hottag:'v2.news.all.608784'})" target="_blank"><span
+                                        class="new-type">新闻</span>官方赛事解说与主持人招募启动<span
+                                        class="date">07/15</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="峡谷之巅正式赛季宣传片"
+                                   onclick="pgvSendClick({hottag:'v2.news.all.608491'})" target="_blank"><span
+                                        class="new-type">新闻</span>峡谷之巅正式赛季宣传片<span
+                                        class="date">07/14</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="新英雄凯隐揭秘站"
+                                   onclick="pgvSendClick({hottag:'v2.news.all.608056'})" target="_blank"><span
+                                        class="new-type">新闻</span>新英雄凯隐揭秘站<span
+                                        class="date">07/13</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="洲际赛冠军回馈活动 来掌盟围观夺冠成员！"
+                                   onclick="pgvSendClick({hottag:'v2.news.all.608024'})" target="_blank"><span
+                                        class="new-type">新闻</span>洲际赛冠军回馈活动
+                                    来掌盟围观夺冠成员！<span class="date">07/13</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="秩序&amp;混沌动画制作花絮"
+                                   onclick="pgvSendClick({hottag:'v2.news.all.607834'})" target="_blank"><span
+                                        class="new-type">新闻</span>秩序&amp;混沌动画制作花絮<span
+                                        class="date">07/13</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="全球高校冠军杯将于7月13日开战！"
+                                   onclick="pgvSendClick({hottag:'v2.news.all.607612'})" target="_blank"><span
+                                        class="new-type">新闻</span>全球高校冠军杯将于7月13日开战！<span
+                                        class="date">07/12</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="7月14日免费英雄更换公告"
+                                   onclick="pgvSendClick({hottag:'v2.news.all.607605'})" target="_blank"><span
+                                        class="new-type">新闻</span>7月14日免费英雄更换公告<span
+                                        class="date">07/12</span></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="content-middle-news">
+                        <ul id="Jnews_n2_inner" class="clearfix txtlist">
+                            <li class="first">
+                                <a href="#" class="lnk-tit" title="祖安大区紧急停机维护公告"
+                                   onclick="pgvSendClick({hottag:'v2.news.announcement.608829'})" target="_blank">
+                                    <img src="http://ossweb-img.qq.com/images/lol/v2/news/pic-news2.jpg">
+                                    <span class="news-first-title">祖安大区紧急停机维护公告</span><span
+                                        class="news-first-desc"></span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="祖安大区网络波动公告"
+                                   onclick="pgvSendClick({hottag:'v2.news.announcement.608822'})" target="_blank"><span
+                                        class="new-type">公告</span>祖安大区网络波动公告<span class="date">07/15</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="“新手免费英雄”更新通知"
+                                   onclick="pgvSendClick({hottag:'v2.news.announcement.607729'})" target="_blank"><span
+                                        class="new-type">公告</span>“新手免费英雄”更新通知<span class="date">07/13</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="7月14日免费英雄更换公告"
+                                   onclick="pgvSendClick({hottag:'v2.news.announcement.607605'})" target="_blank"><span
+                                        class="new-type">公告</span>7月14日免费英雄更换公告<span class="date">07/12</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="峡谷之巅7月12日优化及延迟开放说明"
+                                   onclick="pgvSendClick({hottag:'v2.news.announcement.607490'})" target="_blank"><span
+                                        class="new-type">公告</span>峡谷之巅7月12日优化及延迟开放说明<span class="date">07/12</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="7月10日铸星龙王技能在线调整公告"
+                                   onclick="pgvSendClick({hottag:'v2.news.announcement.606206'})" target="_blank"><span
+                                        class="new-type">公告</span>7月10日铸星龙王技能在线调整公告<span class="date">07/10</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="7月10日比赛服下载地址更新公告"
+                                   onclick="pgvSendClick({hottag:'v2.news.announcement.568859'})" target="_blank"><span
+                                        class="new-type">公告</span>7月10日比赛服下载地址更新公告<span class="date">07/10</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="网通大区网络波动公告"
+                                   onclick="pgvSendClick({hottag:'v2.news.announcement.605948'})" target="_blank"><span
+                                        class="new-type">公告</span>网通大区网络波动公告<span class="date">07/08</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="7月7日免费英雄更换公告"
+                                   onclick="pgvSendClick({hottag:'v2.news.announcement.604883'})" target="_blank"><span
+                                        class="new-type">公告</span>7月7日免费英雄更换公告<span class="date">07/06</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="恕瑞玛大区网络波动公告"
+                                   onclick="pgvSendClick({hottag:'v2.news.announcement.604199'})" target="_blank"><span
+                                        class="new-type">公告</span>恕瑞玛大区网络波动公告<span class="date">07/05</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="7月4日部分大区停机更新时间延长公告"
+                                   onclick="pgvSendClick({hottag:'v2.news.announcement.603581'})" target="_blank"><span
+                                        class="new-type">公告</span>7月4日部分大区停机更新时间延长公告<span class="date">07/04</span></a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="content-middle-news">
+                        <ul id="Jnews_n3_inner" class="clearfix txtlist">
+                            <li class="first">
+                                <a href="#" class="lnk-tit" title="厂长雷克塞抓崩Smlz OMG连胜中止"
+                                   onclick="pgvSendClick({hottag:'v2.news.match.608980'})" target="_blank">
+                                    <img src="http://ossweb-img.qq.com/images/lol/v2/news/pic-news1.jpg">
+                                    <span class="news-first-title">厂长雷克塞抓崩Smlz OMG连胜中止</span><span
+                                        class="news-first-desc">NB让1追2击败SS，EDG则2：0强势终结OMG连胜。</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="海经院横扫多伦多大学 全胜夺世界冠军"
+                                   onclick="pgvSendClick({hottag:'v2.news.match.608118'})" target="_blank"><span
+                                        class="new-type">赛事</span>海经院横扫多伦多大学 全胜夺世界冠军<span class="date">07/16</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="EDG与OMG再对话 历史第八次交锋"
+                                   onclick="pgvSendClick({hottag:'v2.news.match.608928'})" target="_blank"><span
+                                        class="new-type">赛事</span>EDG与OMG再对话 历史第八次交锋<span class="date">07/16</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="薇恩登场夺3杀，海经晋决赛"
+                                   onclick="pgvSendClick({hottag:'v2.news.match.608924'})" target="_blank"><span
+                                        class="new-type">赛事</span>薇恩登场夺3杀，海经晋决赛<span class="date">07/16</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="Condi盲僧神速几何踢！"
+                                   onclick="pgvSendClick({hottag:'v2.news.match.608923'})" target="_blank"><span
+                                        class="new-type">赛事</span>Condi盲僧神速几何踢！<span class="date">07/16</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="“Half Faker，half Deft”——全球高校冠军杯选手Erry"
+                                   onclick="pgvSendClick({hottag:'v2.news.match.608918'})" target="_blank"><span
+                                        class="new-type">赛事</span>“Half Faker，half Deft”——全球高校冠军杯选手Erry<span
+                                        class="date">07/16</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="Condi抢龙终结比赛 WE成功复仇JDG"
+                                   onclick="pgvSendClick({hottag:'v2.news.match.608869'})" target="_blank"><span
+                                        class="new-type">赛事</span>Condi抢龙终结比赛 WE成功复仇JDG<span
+                                        class="date">07/15</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="冷少对阵Scout 黑暗势力目标七连胜"
+                                   onclick="pgvSendClick({hottag:'v2.news.match.608863'})" target="_blank"><span
+                                        class="new-type">赛事</span>冷少对阵Scout 黑暗势力目标七连胜<span class="date">07/15</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="不断成长的小学弟 Scout高光集锦"
+                                   onclick="pgvSendClick({hottag:'v2.news.match.608862'})" target="_blank"><span
+                                        class="new-type">赛事</span>不断成长的小学弟 Scout高光集锦<span class="date">07/15</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="LICC总决赛对阵出炉：全胜海经院将战多伦多大学"
+                                   onclick="pgvSendClick({hottag:'v2.news.match.608860'})" target="_blank"><span
+                                        class="new-type">赛事</span>LICC总决赛对阵出炉：全胜海经院将战多伦多大学<span
+                                        class="date">07/15</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="#" class="lnk-tit" title="海口经济学院七战七胜 晋级冠军战"
+                                   onclick="pgvSendClick({hottag:'v2.news.match.608819'})" target="_blank"><span
+                                        class="new-type">赛事</span>海口经济学院七战七胜 晋级冠军战<span class="date">07/15</span></a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="content-middle-news">
+                        <ul id="Jnews_n4_inner" class="clearfix txtlist">
+                            <li class="first">
+                                <a href="/webplat/info/news_version3/152/4579/4583/m3106/201707/608302.shtml?ADTAG=lolweb.v2.home" class="lnk-tit" title="【问拳头第三十一期】性感英雄与屠夫之桥" onclick="pgvSendClick({hottag:'v2.news.bbs.608302'})" target="_blank">
+                                    <img src="http://ossweb-img.qq.com/images/lol/v2/news/pic-news0.jpg">
+                                    <span class="news-first-title">【问拳头第三十一期】性感英雄与屠夫之桥</span><span class="news-first-desc">你们会制作英雄联盟电影吗？或者是电影级的长视频？</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="/webplat/info/news_version3/152/4579/4583/m3106/201707/608829.shtml?ADTAG=lolweb.v2.home" class="lnk-tit" title="祖安大区紧急停机维护公告" onclick="pgvSendClick({hottag:'v2.news.bbs.608829'})" target="_blank"><span class="new-type">论坛</span>祖安大区紧急停机维护公告<span class="date">07/15</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="/webplat/info/news_version3/152/4579/4583/m3106/201707/608822.shtml?ADTAG=lolweb.v2.home" class="lnk-tit" title="祖安大区网络波动公告" onclick="pgvSendClick({hottag:'v2.news.bbs.608822'})" target="_blank"><span class="new-type">论坛</span>祖安大区网络波动公告<span class="date">07/15</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="/webplat/info/news_version3/152/4579/4583/m3106/201707/608425.shtml?ADTAG=lolweb.v2.home" class="lnk-tit" title="撸言撸语：想杀我，不存在的！最难击杀的英雄" onclick="pgvSendClick({hottag:'v2.news.bbs.608425'})" target="_blank"><span class="new-type">论坛</span>撸言撸语：想杀我，不存在的！最难击杀的英雄<span class="date">07/14</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="/webplat/info/news_version3/152/4579/4583/m3106/201707/608423.shtml?ADTAG=lolweb.v2.home" class="lnk-tit" title="冯提莫大秀女仆装,女主播们的颜值大家怎么看?" onclick="pgvSendClick({hottag:'v2.news.bbs.608423'})" target="_blank"><span class="new-type">论坛</span>冯提莫大秀女仆装,女主播们的颜值大家怎么看?<span class="date">07/14</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="/webplat/info/news_version3/152/4579/4583/m3106/201707/608422.shtml?ADTAG=lolweb.v2.home" class="lnk-tit" title="新版厄加特，我很丑可是我很强" onclick="pgvSendClick({hottag:'v2.news.bbs.608422'})" target="_blank"><span class="new-type">论坛</span>新版厄加特，我很丑可是我很强<span class="date">07/14</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="/webplat/info/news_version3/152/4579/4583/m3106/201707/608421.shtml?ADTAG=lolweb.v2.home" class="lnk-tit" title="洛霞甜蜜秀恩爱，剑姬你怎么可以这么酷" onclick="pgvSendClick({hottag:'v2.news.bbs.608421'})" target="_blank"><span class="new-type">论坛</span>洛霞甜蜜秀恩爱，剑姬你怎么可以这么酷<span class="date">07/14</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="/webplat/info/news_version3/152/4579/4583/m3106/201707/608420.shtml?ADTAG=lolweb.v2.home" class="lnk-tit" title="璐璐卖萌求抱抱，搞笑表情包再次来袭" onclick="pgvSendClick({hottag:'v2.news.bbs.608420'})" target="_blank"><span class="new-type">论坛</span>璐璐卖萌求抱抱，搞笑表情包再次来袭<span class="date">07/14</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="/webplat/info/news_version3/152/4579/4583/m3106/201707/607872.shtml?ADTAG=lolweb.v2.home" class="lnk-tit" title="【话题】美测服：海量皮肤疯狂来袭" onclick="pgvSendClick({hottag:'v2.news.bbs.607872'})" target="_blank"><span class="new-type">论坛</span>【话题】美测服：海量皮肤疯狂来袭<span class="date">07/13</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="/webplat/info/news_version3/152/4579/4583/m3106/201707/607870.shtml?ADTAG=lolweb.v2.home" class="lnk-tit" title="三年后的复仇，Ggoong能否圆梦？" onclick="pgvSendClick({hottag:'v2.news.bbs.607870'})" target="_blank"><span class="new-type">论坛</span>三年后的复仇，Ggoong能否圆梦？<span class="date">07/13</span></a>
+                            </li>
+                            <li class="news-item">
+                                <a href="/webplat/info/news_version3/152/4579/4583/m3106/201707/607869.shtml?ADTAG=lolweb.v2.home" class="lnk-tit" title="空调游戏西瓜，带上妹纸开黑了" onclick="pgvSendClick({hottag:'v2.news.bbs.607869'})" target="_blank"><span class="new-type">论坛</span>空调游戏西瓜，带上妹纸开黑了<span class="date">07/13</span></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <a href="" class="news-more">阅读更多<span>最新资讯</span></a>
+            </div>
+            <div class="content-middle-sidebar">
+                <div class="content-middle-sidebar-tab">
+                    <ul>
+                        <li class="active">周免英雄</li>
+                        <li>最新皮肤</li>
+                        <li>最新英雄</li>
+                    </ul>
+                </div>
+                <div class="content-middle-sidebar-pages">
+                    <ul>
+                        <li class="active">
+                            <ul class="freeHero">
+                                <li><a href=""><img src="./images/Amumu.jpg"></a></li>
+                                <li><a href=""><img src="//ossweb-img.qq.com/images/lol/v2/champion/avatar/Corki.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/champion/avatar/Diana.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/champion/avatar/Fizz.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/champion/avatar/Janna.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/champion/avatar/Jinx.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/champion/avatar/MasterYi.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/champion/avatar/Ornn.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/champion/avatar/Rammus.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/champion/avatar/Swain.jpg"></a></li>
+                            </ul>
+                            <p>免费时间：2017-09-15 至 2017-09-22</p>
+                        </li>
+                        <li>
+                            <ul class="freeHero">
+                                <li><a href=""><img src="http://shp.qpic.cn/lolwebschool/0/JAutoCMS_LOLWeb_8678106748e0bdf2b5906096411b3113/0"></a></li>
+                                <li><a href=""><img src="http://shp.qpic.cn/lolwebschool/0/JAutoCMS_LOLWeb_b5133fcd77a044a526381cbf6a4efe89/0"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/skin/a20170612vs.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/skin/a20170522caitlin.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/skin/a20170407fist.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/skin/a20170401fool.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/skin/a20170213blood.jpg"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="freeHero">
+                                <li><a href=""><img src="http://shp.qpic.cn/lolwebschool/0/JAutoCMS_LOLWeb_543bf165887272bcfb035a47708806c7/0"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/champion/avatar/Kayn.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/champion/avatar/Luoxia.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/champion/avatar/Camille.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/champion/avatar/Ivern.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/champion/avatar/Kled.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/champion/avatar/Taliyah.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/champion/avatar/AurelionSol.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/champion/avatar/Jhin.jpg"></a></li>
+                                <li><a href=""><img src="http://ossweb-img.qq.com/images/lol/v2/champion/avatar/Illaoi.jpg"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="bottomGo clearfix">
+                        <a href=""><img src="//ossweb-img.qq.com/images/lol/v2/pic-go-qt.jpg" alt=""></a>
+                        <a href=""><img src="//ossweb-img.qq.com/images/lol/v2/pic-go-mall.jpg" alt=""></a>
+                    </div>
+                    <div class="warmth">
+                        <svg class="tishi icon" aria-hidden="true">
+                            <use xlink:href="#icon-wenxintishi"></use>
+                        </svg>
+                        <h5>本游戏适合18岁（含）以上玩家娱乐</h5>
+                        <p>抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当
+                        <br>
+                        适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--最新推荐区-->
+        <div class="recommend layer clearfix">
+            <h2>最新推荐</h2>
+            <ul class="recommendTab">
+                <li class="active">视频推荐</li>
+                <li>活动推荐</li>
+            </ul>
+            <ul class="recommendPages">
+                <li class="active">
+                    <ul class="recommendOne">
+                        <li><a href=""><img src="http://puui.qpic.cn/qqvideo_ori/0/d0552ib8kxz_228_128/0" alt=""><p>教你一招：5分钟学会剑姬一秒五剑和一秒破阵</p></a></li>
+                        <li><a href=""><img src="http://shp.qpic.cn/lolwebvideo/201406/8058b44ed6cb3e871f9a41dcdd31b187/0" alt=""><p>英雄技巧与细节：鳄鱼无解流氓套路！学会这个能上钻</p></a></li>
+                        <li><a href=""><img src="http://shp.qpic.cn/lolwebvideo/201406/ec513a55ed8b9464c7f6f03b4b9ab3fa/0" alt=""><p>Faker开大抢队友野怪 游戏环境已经恶劣到这种地步了吗？</p></a></li>
+                        <li><a href=""><img src="http://shp.qpic.cn/lolwebvideo/201406/d83bed530472761ead22b636f511b600/0" alt=""><p>戏命师烬移速流打法，90人不会这么玩！</p></a></li>
+                        <li><a href=""><img src="http://shp.qpic.cn/lolwebvideo/201406/9c94ae965c67248cb6d85974bb663ac1/0" alt=""><p>主播玩脱了：兄弟情深！骚男为救弟弟飞身一跃</p></a></li>
+                        <li><a href=""><img src="http://shp.qpic.cn/lolwebvideo/201406/2d382bb3eed88781b6e495e4089141b8/0" alt=""><p>菲兹全法强装一鱼五个有多恐怖？瞬间五杀！</p></a></li>
+                    </ul>
+                    <a href="" class="videoMore"><p>浏览更多<span>视频内容</span></p></a>
+                </li>
+                <li>
+                    <ul class="activities">
+                        <li>
+                            <a href=""><img src="http://ossweb-img.qq.com/images/clientpop/act/lol_1505805633_sSmallImgUrl.jpg" alt=""></a>
+                            <h2>全球总决赛任务</h2>
+                            <p>活动时间：<span>2017-09-19~2017-11-05</span></p>
+                            <p>2017全球总决赛限定皮肤，冠军之箭艾希同步上架</p>
+                        </li>
+                        <li>
+                            <a href=""><img src="http://ossweb-img.qq.com/images/clientpop/act/lol_1505544217_sSmallImgUrl.JPG" alt=""></a>
+                            <h2>星之守护者跨界厘米秀</h2>
+                            <p>活动时间：<span>2017-09-15~2017-10-31</span></p>
+                            <p>厘米秀皮肤装扮来就领，超萌背饰等你拿</p>
+                        </li>
+                        <li>
+                            <a href=""><img src="http://ossweb-img.qq.com/images/clientpop/act/lol_1505472538_sSmallImgUrl.jpg" alt=""></a>
+                            <h2>海克斯魔法引擎</h2>
+                            <p>活动时间：<span>2017-09-15~2017-09-30</span></p>
+                            <p>1周年安妮梦游仙境、2周年勇敢的心德莱厄斯</p>
+                        </li>
+                        <li>
+                            <a href=""><img src="http://ossweb-img.qq.com/images/clientpop/act/lol_1505464229_sSmallImgUrl.jpg" alt=""></a>
+                            <h2>英雄联盟开学季活动</h2>
+                            <p>活动时间：<span>2017-09-15~2017-09-30</span></p>
+                            <p>玩游戏赢取免费皮肤</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="page hide"></div>
+    <div class="page hide"></div>
+    <div class="page hide"></div>
+
+</div>
+<div class="footer">
+    <div class="footer-inner layout clearfix">
+        <ul class="footer-right">
+            <li>
+                <a target="_blank" href="http://ieg.tencent.com/" class="c4F6">腾讯互动娱乐</a><span class="f9 plr10">|</span><a target="_blank" href="http://www.qq.com/contract.shtml" class="c4F6">服务条款</a><span class="f9 plr10">|</span><a target="_blank" href="http://adver.qq.com/" class="c4F6">广告服务</a><span class="f9 plr10">|</span><a target="_blank" href="http://game.qq.com/hr/" class="c4F6">腾讯游戏招聘</a><span class="f9 plr10">|</span><a target="_blank" href="http://service.qq.com/" class="c4F6">腾讯游戏客服</a><span class="f9 plr10">|</span><a target="_blank" href="http://tgact.qq.com/?g=lol" class="c4F6">游戏活动</a><span class="f9 plr10">|</span><a target="_blank" href="http://game.qq.com/gnav/" class="c4F6">游戏地图</a><span class="f9 plr10">|</span><a target="_blank" href="http://game.qq.com/portal2010/business.htm" class="c4F6">商务合作</a><span class="f9 plr10">|</span><a target="_blank" href="http://www.qq.com/" class="c4F6">腾讯网</a><span class="f9 plr10">|</span><a target="_blank" href="http://www.qq.com/map/" class="c4F6">网站导航</a>
+            </li>
+            <li>
+                <a target="_blank" href="http://www.tencent.com/law/mo_law.shtml?/law/copyright.htm" class="c4F6">腾讯公司版权所有</a></li>
+            <li class="specialP">COPYRIGHT © 1998 - 2017 TENCENT. ALL RIGHTS RESERVED.</li>
+            <li class="specialP">© 2012 Riot Games, Inc. ALL RIGHTS RESERVED.</li>
+            <li>文网进字[2011] 004号 &amp; ISBN 978-7-89989-145-2<span class="f9 plr10">|</span><a target="_blank" class="c4F6" href="http://game.qq.com/culture2.htm&#10;">新出网证（粤）字010号</a><span class="f9 plr10">|</span><a target="_blank" class="c4F6" href="http://game.qq.com/culture.htm&#10;">粤网文【2017】6138-1456号</a></li>
+        </ul>
+    </div>
+</div>
+<script src="jquery-3.2.0.js"></script>
+<script src="addClassTab.js"></script>
+<script src="dist/lol.js"></script>
+<script src="//at.alicdn.com/t/font_423597_wpn001f2z2hb0529.js"></script>
+</body>
+</html>

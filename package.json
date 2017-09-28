@@ -1,0 +1,34 @@
+{
+  "name": "170709lol",
+  "version": "1.0.0",
+  "main": "addClassTab.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tryingpzm/lol-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tryingpzm/lol-1/issues"
+  },
+  "homepage": "https://github.com/tryingpzm/lol-1#readme",
+  "keywords": [],
+  "description": ""
+}
